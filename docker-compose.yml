@@ -1,0 +1,7 @@
+services:
+  nocontrol:
+    build: .
+    container_name: nocontrol
+    restart: unless-stopped
+    ports:
+      - "8080:80"
