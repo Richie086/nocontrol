@@ -1,0 +1,28 @@
+{
+  "_format": "songs maps a song slug to an array of lines. A line is a plain string. Use \"\" for a stanza break, and wrap a section name in square brackets (e.g. \"[chorus]\") to style it as a marker rather than a lyric. Lyrics attach to the song, so every version of that song shares one entry. Slugs match the #anchors on the page. Run `make build` after editing.",
+  "_example": [
+    "[verse 1]",
+    "First line.",
+    "Second line.",
+    "",
+    "[chorus]",
+    "Hook line."
+  ],
+  "songs": {
+    "poison-st.": [],
+    "rule-of-fools": [],
+    "hot-as-it-come": [],
+    "aaron": [],
+    "strong-enough": [],
+    "someday": [],
+    "bastards": [],
+    "stormy-blue": [],
+    "officer": [],
+    "a-world-so-cruel": [],
+    "shout-it-from-the-rooftops": [],
+    "another-day-another-dollar": [],
+    "aeo": [],
+    "defeater": [],
+    "night-and-day": []
+  }
+}
